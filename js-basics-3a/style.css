@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+	margin: 2rem;
+}
+
+.loader {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: blueviolet;
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: calc(50vh - 3rem);
+	opacity: 0.9;
+}
+
+.loading .loader {
+	display: block;
+}
